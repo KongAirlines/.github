@@ -8,3 +8,6 @@ is responsible for a different part of the airline's API infrastructure. Teams o
 repositories that contain the code and configuration for their services. The platform
 team is responsible for managing the Kong Gateway and other shared services.
 
+## Security
+
+See [SECURITY.md](SECURITY.md) for information on how to report security vulnerabilities.
