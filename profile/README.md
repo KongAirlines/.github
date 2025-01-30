@@ -10,4 +10,4 @@ team is responsible for managing the Kong Gateway and other shared services.
 
 ## Security
 
-See [SECURITY.md](SECURITY.md) for information on how to report security vulnerabilities.
+See [Security](SECURITY.md) for information on how to report security vulnerabilities.
