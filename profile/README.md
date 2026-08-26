@@ -1,12 +1,27 @@
-# Kong Air
+# KongAirlines
 
-Kong Air is a fictional airline used to demonstrate how engineering organizations can
-utilize Kong, Inc. projects and products to build API Management solutions.
+KongAirlines is the public, working implementation of the
+[Konnect Reference Platform](https://developer.konghq.com/konnect-reference-platform/).
+It demonstrates federated APIOps with supported `kongctl` and decK declarative
+configuration on one default branch.
 
-This organization is made up of multiple teams with various responsibilities. Each team
-is responsible for a different part of the airline's API infrastructure. Teams own
-repositories that contain the code and configuration for their services. The platform
-team is responsible for managing the Kong Gateway and other shared services.
+The Platform Team owns shared Konnect foundations and production Gateway
+governance in [`platform`](https://github.com/KongAirlines/platform). Service
+teams own their API contracts, Catalog resources, and development Gateway state:
+
+- `customer-data`: [`bookings`](https://github.com/KongAirlines/bookings) and
+  [`customer`](https://github.com/KongAirlines/customer)
+- `flight-data`: [`destinations`](https://github.com/KongAirlines/destinations)
+  and [`flights`](https://github.com/KongAirlines/flights)
+
+Bookings and Customer Information demonstrate Key Auth plus service-scoped
+Access Control Enforcement. Destinations and Flights remain anonymous. Each
+service writes independently to its team development control plane; exact
+production Gateway artifacts are promoted to the Platform Team for review and
+one aggregate apply.
+
+The legacy `routes` repository is retained for historical application code but
+is not part of the active Reference Platform topology.
 
 ## Security
 
