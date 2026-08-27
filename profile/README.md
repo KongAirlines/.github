@@ -20,9 +20,6 @@ service writes independently to its team development control plane; exact
 production Gateway artifacts are promoted to the Platform Team for review and
 one aggregate apply.
 
-The legacy `routes` repository is retained for historical application code but
-is not part of the active Reference Platform topology.
-
 ## Security
 
 See [Security](SECURITY.md) for information on how to report security vulnerabilities.
