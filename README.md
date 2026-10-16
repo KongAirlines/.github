@@ -1,9 +1,6 @@
-# Kong Air
+# KongAirlines organization profile
 
-Kong Air is a fictional airline used to demonstrate how engineering organizations can
-utilize Kong, Inc. projects and products to build API Management solutions.
-
-This organization is made up of multiple teams with various responsibilities. Each team
-is responsible for a different part of the airline's API infrastructure. Teams own
-repositories that contain the code and configuration for their services. The platform
-team is responsible for managing the Kong Gateway and other shared services.
+The rendered organization profile is maintained in
+[`profile/README.md`](profile/README.md). It presents KongAirlines as the public
+implementation of the Konnect Reference Platform and links to the active
+Platform Team and service-team repositories.
